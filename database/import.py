@@ -20,12 +20,9 @@ if __name__ == "__main__":
 
     # Define your CSV files and corresponding table names
     csv_files_and_tables = {
-        '../data/advertising.csv': 'advertising_de_april',
-        '../data/categories.csv': 'categories',
-        '../data/collections.csv': 'collections',
-        '../data/inventory.csv': 'inventory',
-        '../data/processed_orders.csv': 'orders',
-        '../data/products.csv': 'products'
+        '../data/final_ads.csv': 'advertising',
+        '../data/final_order.csv': 'orders',
+        '../data/final_inv.csv': 'inventory'
     }
 
     # Import each CSV file into the corresponding SQL table
